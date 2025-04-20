@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATIVA</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="font.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+
+    <style>
+        h1 {
+            color: white;
+        }
+        
+        h2 {
+            color: #f0ebe4;
+        }
+        
+        h3 {
+            color: #f69309;
+            margin-left: 200px;
+        }
+
+        
+        
+        p {
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <header class="hero">
+        <nav id="stimenu" class="nav__hero">
+            <div class="container nav__container">
+                <div class="logo">
+                    <img id="img-left" src="imageneslogo/logoyuri.png" alt="creativa" class="nav-brand">
+                </div>
+                <div class="logo2">
+                    <img id="img-left" src="imageneslogo/NEGRO3.png" alt="creativa" class="logo22">
+                </div>
+
+                <div class="links">
+                    <a href="creativa.html#sec1" class="link">Inicio</a>
+                    <a href="creativa.html#sec2" class="link">Nosotros</a>
+                    <a href="creativa.html#sec3" class="link">Servicios</a>
+                    <a href="creativa.html#sec5" class="link">Clientes</a>
+                    <a href="creativa.html#sec6" class="link link--active">Contactanos</a>
+                </div>
+            </div>
+        </nav>
+        <section class="hero"></section>
+        <section class="demo-content"></section>
+    </header>
+
+
+
+    <script>
+        window.addEventListener('scroll', function() {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+    </script>
+
+
+
+
+
+    <script type="text/javascript" src="MENUFINALSTICK.JS"></script>
+
+
+    <section id="sec1">
+        <div class="container-slider">
+            <div class="slider" id="slider">
+                <div class="slider__section">
+                    <img src="slider/woman-6468147.jpg" alt="" class="slider__img"></div>
+                <div class="slider__section">
+                    <img src="slider/bride-6230420.jpg" alt="" class="slider__img"></div>
+                <div class="slider__section">
+                    <img src="slider/common-heron-6549208_1920.jpg" alt="" class="slider__img"></div>
+                <div class="slider__section">
+                    <img src="slider/sculpture-5758884.jpg" alt="" class="slider__img"></div>
+            </div>
+
+
+
+
+
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+        </div>
+        <script src="slider.js"></script>
+
+        <div class="espaciador"></div>
+
+        <br>
+        <br>
+        <br>
+        <section id="sec2">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3> YURI GALVIS ROMERO</h3>
+            <br>
+            <br>
+            <section id="pantalla-dividida">
+                <div class="izquierda">
+                    <p> Mujer Fusagasugueña que busca plasmar la esencia a través del lente de su cámara, 8 años de seguir un sueño que empezó como un hobby que vive con pasión, amante de la fotografía de moda y de retrato, amante de la música electrónica
+                        y a compartir momentos en familia, tiene como objetivo hacer que sus clientes revivan momentos inolvidables con sus fotografías. La naturalidad y esencia siempre tendrán un papel principal en el trabajo final en cada una de sus
+                        fotografías. </p>
+                    <br>
+                    <br>
+                </div>
+                <div class="derecha">
+                </div>
+            </section>
+        </section>
+        <div class="espaciador1"></div>
+
+
+
+
+        <header class="servicios">
+            <section id="sec3">
+                <br>
+                <br>
+                <br>
+                <h2>SERVICIOS</h2>
+                <br>
+                <br>
+                <br>
+                <div class=uno>
+                    <div class="card">
+                        <img src="fotosservicios/fotografiasocial.jpg">
+                        <h4> Fotografia Social</h4>
+                        <p> está directamente relacionada con el ser humano y la sociedad. Su objetivo y foco es el ser humano y sus circunstancias.</p>
+                        <button class="bservi"> 
+                    <button type="select" class="botonesventas"><a href="fotografiasocial.html">MAS INFORMACION</a></button>
+                        </button>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+
+                <div class=dos>
+                    <div class="cardd">
+                        <img src="fotosservicios/fotografiapublicitaria.jpg">
+                        <h4> Fotografia Publicitaria</h4>
+                        <p>se utiliza una amplia gama de técnicas especiales con el fin de que las imágenes sean atractivas para el consumidor, </p>
+
+                        <button class="bservi"> 
+                    <button type="select" class="botonesventas"><a href="fotografiapublicitaria.html">MAS INFORMACION</a></button>
+                        </button>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <div class=uno>
+                    <div class="card">
+                        <img src="fotosservicios/fotografiacorporativa.jpg">
+                        <h4> Fotografia Corporativa</h4>
+                        <p> La fotografía social es una subcategoría de fotografía o tipo de fotografía, </p>
+                        <button class="bservi"> 
+     <button type="select" class="botonesventas"><a href="fotografiacorporativa.html">MAS INFORMACION</a></button>
+                        </button>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+
+                <div class=dos>
+                    <div class="cardd">
+                        <img src="fotosservicios/produccionaudivisual.jfif">
+                        <h4> Produccion audiovisual</h4>
+                        <p> La fotografía social es una subcategoría de fotografía o tipo de fotografía, d </p>
+
+
+                        <button class="bservi"> 
+                <button type="select" class="botonesventas"><a href="fotografiaaudiovisual.html">MAS INFORMACION</a></button>
+                        </button>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class=uno>
+                    <div class="card">
+                        <img src="fotosservicios/marketing digital.png">
+                        <h4> Marketing Digital</h4>
+                        <p> La fotografía social es una subcategoría de fotografía o tipo de fotografía, </p>
+
+
+                        <button class="bservi"> 
+                     <button type="select" class="botonesventas"><a href="marketinhdigital.html">MAS INFORMACION</a></button>
+                        </button>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+        </header>
+        </section>
+        <section id="sec5">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2> CLIENTES</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="clientes">
+                <img src="clientes/clientes1.jpg" href="marketinhdigital.html" class="clienteuno">
+                <img src="clientes/clientes3.png" href="marketinhdigital.html" class="clientedos">
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="clientess">
+                <img src="clientes/cliente7.jpg" href="marketinhdigital.html" class="clientetres">
+                <img src="clientes/clientes6.jpg" href="marketinhdigital.html" class="clientecuatro">
+                <img src="clientes/clientes10.png" href="marketinhdigital.html" class="clientecinco">
+            </div>
+        </section>
+        <section id="sec6">
+            <div class="formulario">
+                <div class="mapa">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d591.3871336917426!2d-74.36197541429883!3d4.34287055710341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f04f7a10e0b67%3A0x9c595d3cfbd16084!2sporvenir!5e0!3m2!1ses!2sco!4v1632006718584!5m2!1ses!2sco"
+                        width="450" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="social-bar">
+                    <ul>
+                        <li><a href="https://www.instagram.com/yurigalviscreativa/">instagram</a><i class="icon-instagram"></i></li>
+                        <li><a href="https://www.facebook.com/yurigalvis.fotografia">facebook</a><i class="icon-facebook2"></i></li>
+                        <li><a href="https://wa.me/573224239335?text=Hola%20necesito%20informacion%20sobre%20los%20paquetes.">whatsapp</a><i class="icon-whatsapp"></i></li>
+                        <li><a href="https://mail.google.com/mail/u/0/?pli=1#search/yurigalvis%40gmail.com">gmail</a><i class="icon-outgoing_mail"></i></li>
+                    </ul>
+                </div>
+
+                <div class=form>
+                    <h2> CONTACTANOS</h2>
+                    <div class="grupo">
+                        <input type="text" name="nombre" autocomplete="off" id="" required> <span class="barra"></span>
+                        <label>Nombre </label>
+                    </div>
+
+                    <div class="grupo">
+                        <input type="email" name="email" id="" required> <span class="barra"></span>
+                        <label> Email </label>
+                    </div>
+
+                    <div class="grupo">
+                        <input type="number" name="numero" autocomplete="off" id="" required> <span class="barra"></span>
+                        <label>Numero Telefonico</label>
+                    </div>
+
+                    <div class="grupo">
+                        <input type="text" name="mensaje" autocomplete="off" id="" rows="3"> <span class="barra"></span>
+                        <label>Mensaje</label>
+                    </div>
+                    <div>
+                        <button type="submit" class="botonenviar"> <h4>ENVIAR</h4> </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+</body>
+<footer>
+    <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+    <path d="M-1.97,67.59 C207.38,51.80 293.16,158.38 499.72,60.69 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgba(255, 255, 255, 0.301);">
+            
+        </path></svg></div>
+    <div class="FOO"></div>
+</footer>
+
+</html>
